@@ -1,13 +1,5 @@
 "use client";
 import React from "react";
-import ReactDOM from 'react-dom';
-import Link from "next";
-import { SocialIcon } from 'react-social-icons';
-
-const Component = <SocialIcon url="https://youtube.com" />
-const Component2 = <SocialIcon url="https://instagram.com" />
-
-
 const ProjectCard = ({imgUrl, title, description,instaUrl})=>{
 
     const handleCardClick = () => {

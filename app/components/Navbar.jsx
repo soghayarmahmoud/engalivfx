@@ -5,8 +5,6 @@ import Link  from 'next/link';
 import NavLink from './NavLink';
 const Navbar = ()=>{
     
-    const [navbarOpen,setNavbarOpen] = useState(true);
-
     return(
         <nav  className='fixed top-0 left-0 right-0 z-10 bg-[#dddddd90] select-none '>
 

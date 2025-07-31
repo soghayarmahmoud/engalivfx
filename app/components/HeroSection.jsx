@@ -1,4 +1,3 @@
-// "use client";
 "use client";
 import React from 'react';
 import Image from 'next/image';
@@ -41,7 +40,7 @@ const HeroSection = ()=> {
                         
                     </p>
                 <div className='px-14 '>
-                    <button className='px-6 py-3.5 sm:w-fit w-full rounded-full mr-4 transition-colors bg-green-500 hover:bg-green-400 hover:cursor-pointer text-black font-bold ' onClick={()=> window.open('https://wa.me/201095054714','_blanc')}>WhatsApp</button>
+                    <button className='px-6 py-3.5 sm:w-fit w-full rounded-full mr-4 transition-colors bg-green-500 hover:bg-green-400 hover:cursor-pointer text-black font-bold ' onClick={()=> window.open('https://wa.me/201095054714','_blank')}>WhatsApp</button>
                     <button className='px-6 py-3 sm:w-fit w-full rounded-full mr-4 transition-colors hover:bg-[#444] hover:text-white hover:cursor-pointer text-black border border-solid border-black mt-3 ' onClick={()=> window.open('#projects','_self')}>Show Projects</button>
                 </div>
 
