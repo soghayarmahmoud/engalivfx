@@ -114,7 +114,6 @@
 //   )
 // }
 
-// export default EmailSection
 
 
 import React, { useState } from 'react';
@@ -204,3 +203,4 @@ const EmailSection = () => {
         </section>
     );
 };
+export default EmailSection
