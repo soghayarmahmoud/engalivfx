@@ -23,9 +23,9 @@ const HeroSection = ()=> {
                                     // Same substring at the start will only be typed out once, initially
                                     'Ali Abdelhameed',
                                     1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                    'Video Editor',
+                                    'Video Editor ',
                                     1000,
-                                    'Content Creator',
+                                    'Content Creator ',
                                     1000
                                    ]}
                                     wrapper="span"
