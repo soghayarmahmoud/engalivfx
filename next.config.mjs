@@ -12,7 +12,7 @@ const nextConfig = {
     return config;
   },
 
-  output: 'export', // Add this line for static export
+  // output: 'export', // Add this line for static export
   reactStrictMode: true,
   images: {
     unoptimized: true, // If you're using <Image>, needed for static export
